@@ -1,0 +1,19 @@
+.full-container {
+    margin-left:0px;
+    margin-right:0px;
+    width:100%;
+    position:relative;
+}
+
+.product-display {
+    right:0;
+}
+
+.search-dash {
+    background-color:#333;
+    height: 100%;
+    position: relative;
+}
+
+
+

@@ -1,0 +1,25 @@
+<app-wrg-nav></app-wrg-nav>
+<div >
+  <div class="row">
+    <div class="col-xs-12">
+        <a (click)="onLogin()">Login</a> -
+        <a (click)="onLogout()">Logout</a>
+    </div>
+  </div>
+  <div class="row">
+    <app-wrg-banner></app-wrg-banner>
+  </div>
+
+  <div class="container full-container">
+    <div class="row">
+      
+     
+      <router-outlet></router-outlet>
+     
+    </div>
+    
+  </div>
+  <div class="row">
+      <app-wrg-footer></app-wrg-footer>
+  </div>
+</div>
